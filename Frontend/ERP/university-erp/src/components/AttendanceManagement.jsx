@@ -100,7 +100,7 @@ export default function AttendanceManagement() {
               ) : (
                 <tr>
                   <td colSpan="5" className="empty-state">
-                    No students found. Please register students in the Student Management module first.
+                    No students found.Please register students in the Student Management module first.
                   </td>
                 </tr>
               )}
