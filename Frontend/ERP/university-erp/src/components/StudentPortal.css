@@ -6,12 +6,7 @@
   border-left: 4px solid var(--primary-accent);
 }
 
-.profile-details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
-}
+
 
 .profile-item {
   display: flex;
@@ -33,6 +28,13 @@
   font-weight: 500;
 }
 
+.profile-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
 /* 3-Column Academic Grid */
 .academic-grid {
   display: grid;
@@ -52,13 +54,7 @@
 }
 
 /* Attendance Card Specific Styles */
-.attendance-summary {
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
+
 
 .attendance-ring {
   width: 140px;
@@ -71,6 +67,15 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 20px rgba(16, 185, 129, 0.15);
+}
+
+
+.attendance-summary {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .attendance-percentage {
